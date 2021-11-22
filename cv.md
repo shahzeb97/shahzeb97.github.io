@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Shahzeb Mirza
+title: Shahzeb Mirza CV
 subtitle: MASc Candidate, Mechanical and Industrial Engineering, University of Toronto
 ---
 
