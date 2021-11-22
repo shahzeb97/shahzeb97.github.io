@@ -70,6 +70,7 @@ Certified Competence (Diplôme d’Études en Langue Française Delf - B1)
 
 
 # Clubs and Activities
+
 | Club | Year(s) Active |
 | :------ |:--- |
 | CNRL Student Intern Committee (_Co-chair_) | 2020 |

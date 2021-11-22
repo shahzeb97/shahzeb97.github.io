@@ -1,4 +1,4 @@
-I"<h1 id="education">Education</h1>
+I"!<h1 id="education">Education</h1>
 <p><strong><a href="https://www.mie.utoronto.ca/">MASc, Mechanical and Industrial Engineering, University of Toronto</a></strong><br />
 September 2021 - Present</p>
 
@@ -86,13 +86,43 @@ Certified Competence (Diplôme d’Études en Langue Française Delf - B1)</p>
 </table>
 
 <h1 id="clubs-and-activities">Clubs and Activities</h1>
-<p>| Club | Year(s) Active |
-| :—— |:— |
-| CNRL Student Intern Committee (<em>Co-chair</em>) | 2020 |
-| CNRL United Way Student Group (<em>Events Coordinator</em>) | 2020 |
-| University of Alberta Intramural Dodgeball (<em>Champion</em>) | 2019 |
-| University of Alberta Badminton Club | 2018, 2017 |
-| University of Alberta Aero SAE Heavy Lift Club | 2018 |
-| University of Alberta Creative Writing Club | 2018 |
-| University of Alberta Aerial Robotics Group | 2016 |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Club</th>
+      <th style="text-align: left">Year(s) Active</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">CNRL Student Intern Committee (<em>Co-chair</em>)</td>
+      <td style="text-align: left">2020</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CNRL United Way Student Group (<em>Events Coordinator</em>)</td>
+      <td style="text-align: left">2020</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">University of Alberta Intramural Dodgeball (<em>Champion</em>)</td>
+      <td style="text-align: left">2019</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">University of Alberta Badminton Club</td>
+      <td style="text-align: left">2018, 2017</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">University of Alberta Aero SAE Heavy Lift Club</td>
+      <td style="text-align: left">2018</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">University of Alberta Creative Writing Club</td>
+      <td style="text-align: left">2018</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">University of Alberta Aerial Robotics Group</td>
+      <td style="text-align: left">2016</td>
+    </tr>
+  </tbody>
+</table>
 :ET
