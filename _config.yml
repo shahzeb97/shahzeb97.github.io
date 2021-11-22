@@ -18,10 +18,10 @@ remote_theme: daattali/beautiful-jekyll@5.0.0
 
 navbar-links:
   Projects: "projects"
-  # Resume: "/resume"
   CV: "cv"
-  # Blog: "blog"
 
+  # Resume: "/resume"  
+  # Blog: "blog"
   # About Me: "aboutme"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
