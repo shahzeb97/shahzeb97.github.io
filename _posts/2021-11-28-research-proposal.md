@@ -1,11 +1,11 @@
 ---
 layout: post
-title: My Research Proposal
-subtitle: Metallic Phase Change Materials for Transient Thermal Management of Electric Vehicle Power Electronics
+title: Meltdown Imminent
+subtitle: Metallic Phase Change Materials for Fast Chargers
 ---
 
-# In a Tweet
-Electric vehicles could be charged a lot faster if we could keep the electronics cool. I'm designing a new kind of cooler to do just that.
+# In a Tweet:
+Electric vehicles could be charged a lot faster if we could keep the power electronics cool. What if we did that with melting metals?
 
 
 # The Why?

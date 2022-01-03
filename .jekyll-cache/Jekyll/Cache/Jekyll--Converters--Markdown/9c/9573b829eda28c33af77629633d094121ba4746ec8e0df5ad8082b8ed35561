@@ -1,0 +1,30 @@
+I"7<blockquote>
+  <p>I’m Hydrodynamically Designed!</p>
+</blockquote>
+
+<p>-<a href="https://youtu.be/USEnoc6B9zw">Spongebob Squarepants</a></p>
+
+<h2 id="why">Why?</h2>
+
+<p>Over the last semester, (<em>the fall of 2021 for you historians</em>), I took a class called “Computational Fluid Mechanics and Heat Transfer”. Our professor, Dr. Hanif Montazeri, promised a challenging/rewarding experience; frankly, he undersold it. Over the course of 4 months, we hand-crafted our own solvers for the famous <a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations">Navier-Stokes Equations</a>. I learned a lot about vector-calculus, discretizing equations, and good programming practice, but most importantly, I made some pretty graphs.</p>
+
+<h2 id="solvers-specifics">Solvers Specifics</h2>
+
+<p>The solver I wrote for this class was written in Python and made extensive use of the SciPy sparse linear algebra library. I used the SIMPLE (Semi-Implicit Method for Pressure Linked Equations) algorithm on a co-located grid. This algorithm was first proposed by <a href="https://doi-org.myaccess.library.utoronto.ca/10.1016/0017-9310(72)90054-3">Patankar and Spalding</a> in 1973 [1] and its implementation on a co-located grid was first described by <a href="https://doi.org/10.2514/3.8284">Rhie and Chow</a> in 1983 [2]. I promise the pretty graphs are coming.</p>
+
+<h2 id="the-principle-problem">The Principle Problem</h2>
+
+<p>The scope of the course was to simulate the famous “Lid-Driven Cavity” flow problem. This is a well-known benchmark for testing fluid simulations and has been studied numerically and experimentally for decades. The idea is to simulate how a fluid would behave in a square box with an open top where fluid was rushing past:</p>
+
+<p><img src="liddrivencavity.png" alt="Lid" class="mx-auto d-block" /></p>
+
+<p>Ghia et al. [3] in particular, wrote a landmark paper in 1982 studying the problem on a high resolution grid. I used their results to verify the correctness of my own solver, which are the first pretty plots I present below:</p>
+
+<h2 id="references">References</h2>
+
+<p>[1] S. V. Patankar and D. B. Spalding, “A calculation procedure for heat, mass and momentum transfer in three-dimensional parabolic flows,” International Journal of Heat and Mass Transfer, vol. 15, no. 10, pp. 1787–1806, Oct. 1972, doi: 10.1016/0017-9310(72)90054-3.</p>
+
+<p>[2] C. M. Rhie and W. L. Chow, “Numerical study of the turbulent flow past an airfoil with trailing edge separation,” AIAA Journal, vol. 21, no. 11, pp. 1525–1532, Nov. 1983, doi: 10.2514/3.8284.</p>
+
+<p>[3] U. Ghia, K. N. Ghia, and C. T. Shin, “High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method,” Journal of Computational Physics, vol. 48, no. 3, pp. 387–411, Dec. 1982, doi: 10.1016/0021-9991(82)90058-4.</p>
+:ET

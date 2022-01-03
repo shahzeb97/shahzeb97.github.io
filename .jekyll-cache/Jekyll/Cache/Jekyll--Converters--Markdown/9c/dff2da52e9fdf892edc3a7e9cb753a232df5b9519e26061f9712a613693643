@@ -1,0 +1,14 @@
+I"<blockquote>
+  <p>I’m Hydrodynamically Designed!</p>
+</blockquote>
+
+<p>-<a href="https://youtu.be/USEnoc6B9zw">Spongebob Squarepants</a></p>
+
+<h2 id="the-backstory">The Backstory</h2>
+
+<p>Over the last semester, (<em>the fall of 2021 for you historians</em>), I took a class called “Computational Fluid Mechanics and Heat Transfer”. Our professor, Dr. Hanif Montazeri, promised a challenging/rewarding experience; frankly, he undersold it. Over the course of 4 months, we hand-crafted our own solvers for the famous <a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations">Navier-Stokes Equations</a>. I learned a lot about vector-calculus, discretizing equations, and good programming practice, but most importantly, I made some pretty graphs.</p>
+
+<h2 id="the-principle-problem">The Principle Problem</h2>
+
+<p>The scope of the course was to simulate the famous “Lid-Driven Cavity” flow problem. This is an well-known benchmark for testing fluid simulations and has a long history  of experimental and numerical</p>
+:ET
