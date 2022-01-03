@@ -33,7 +33,7 @@ My solver seemed to be accurate enough and I was happy that it captured the smal
 
 ## More Interesting Problems
 
-The real beauty of having a solver is that you can go beyond the state-mandated solutions. While developing my code, I made sure to make it 
+The real beauty of having a solver is that you can go beyond the state-mandated solutions. While developing my code, I made sure to make it general.
 
 ## References
 
