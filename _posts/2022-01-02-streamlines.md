@@ -33,7 +33,74 @@ My solver seemed to be accurate enough and I was happy that it captured the smal
 
 ## More Interesting Problems
 
-The real beauty of having a solver is that you can go beyond the state-mandated solutions. While developing my code, I made sure to make it general.
+The real beauty of having a solver is that you can go beyond the state-mandated solutions. While developing my code, I made sure to keep it general. There are five specific ways that it is generalized:
+1. The number of nodes/cells in the domain can be changed
+2. The aspect ratio of the domain can be changed.
+3. The velocity at the four boundaries can be changed.
+4. The Reynolds number can be changed.
+5. The velocity at any node can be fixed to any value.
+
+Below I present some plots to demonstrate the power of this generalization where possible.
+
+### Changing the Aspect Ratio (Point 2)
+
+Flow in a square is cool and all, but variety is the spice of life. How about some rectangles? Below I present the same lid-driven flow problem with differently shaped cavities:
+
+![1:2 Aspect Ratio](..\assets\img\streamlines\1-2.png){: .mx-auto.d-block :}
+
+![2:1 Aspect Ratio](..\assets\img\streamlines\2-1.png){: .mx-auto.d-block :}
+
+![3:1 Aspect Ratio](..\assets\img\streamlines\3-1.png){: .mx-auto.d-block :}
+
+I found the taller boxes more pleasing to look at. Why not make one in the aspect ratio of a phone as a wallpaper? (For Galaxy S10e owners anyway)
+
+![19:9 Aspect Ratio](..\assets\img\streamlines\19-9.png){: .mx-auto.d-block :}
+
+### Changing the Boundary Conditions (Point 3)
+
+Let's move beyond your average every day lid driven flow, into advanced lid driven flow. How about a container where the flow on the right and left walls is driven upwards?
+
+![Bowtie Flow!](..\assets\img\streamlines\bowtie.png){: .mx-auto.d-block :}
+
+I affectionately refer to this as 'bowtie flow'
+
+### Changing the shape of the domain (Point 5)
+
+Point 5 is especially powerful; it allows us to effectively model flow in or around *any* shapes. Consider a box with a step in the lower left corner. Simply enough, we can model this by simulating the entire encaspsulating square, and freezing the fluids velocity to zero in places we want to exclude from our domain of interest:
+
+![Back Step Flow](..\assets\img\streamlines\backstep.png){: .mx-auto.d-block :}
+
+### Flow around obstacles (Point 5)
+
+The really fun part about Point 5 is that we can model flow around any arbitray obstacle as well! Below I place a square in the middle of the original lid-driven cavity flow problem:
+
+![Square Flow](..\assets\img\streamlines\squareflow.png){: .mx-auto.d-block :}
+
+I extended my code so I could take any black and white image and use it as a "mask" to create flow around it as an obstacle. Lets see if old spongebob is as hydrodynamic as he [claims](https://youtu.be/USEnoc6B9zw). First we start with a profile of our character:
+
+![Spongebob](..\assets\img\streamlines\sponge.png){: .mx-auto.d-block :}
+
+Then we use our editting software of choice to conver this to a black and white mask:
+
+![Spongebob Mask](..\assets\img\streamlines\spongemask.png){: .mx-auto.d-block :}
+
+And we plug and play:
+
+![Sponge Flow](..\assets\img\streamlines\spongeflow.png){: .mx-auto.d-block :}
+
+Can you guess this other bikini bottom resident below? Try saving the image for a hint 😉.
+
+![Star Flow](..\assets\img\streamlines\starflow.png){: .mx-auto.d-block :}
+
+
+## Closing thoughts
+
+This project was a ton of fun to work on. I hope to eventually release this code as a webapp or command line app so users can create their own pretty streamlines. There's a lot more functionality I can see myself adding in the future, including but not limited to:
+
+1. Animating flow over moving obstacles
+2. Pressure boundary conditions
+3. Symmetry boundary conditions
+4. Periodic boundary conditions
 
 ## References
 
