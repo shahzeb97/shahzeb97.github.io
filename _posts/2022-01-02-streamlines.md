@@ -21,12 +21,12 @@ The solver I wrote for this class was written in Python and made extensive use o
 
 The scope of the course was to simulate the famous "Lid-Driven Cavity" flow problem. This is a well-known benchmark for testing fluid simulations and has been studied numerically and experimentally for decades. The idea is to simulate how a fluid would behave in a square box with an open top where fluid was rushing past:
 
-![Lid Driven Cavity](..\assets\img\streamlines\liddrivencavity.png){: .mx-auto.d-block :}
+![Lid Driven Cavity](..\assets\img\streamlines\liddrivencavity.webp){: .mx-auto.d-block :}
 <figcaption align = "center"><i>Geometry of lid-driven cavity flow problem by OpenFOAM</i></figcaption>
 
 [Ghia et al.](https://doi-org.myaccess.library.utoronto.ca/10.1016/0021-9991(82)90058-4) [3] wrote a landmark paper in 1982 studying the problem on a high resolution grid. I used their results to verify the correctness of my own solver, which are the first pretty plots I present below:
 
-![Compared](..\assets\img\streamlines\compare.png){: .mx-auto.d-block :}
+![Compared](..\assets\img\streamlines\compare.webp){: .mx-auto.d-block :}
 <figcaption align = "center"><i>Comparison streamlines: my solver (left) and Ghia et al. (right) for lid-driven cavity flow</i></figcaption>
 
 My solver seemed to be accurate enough and I was happy that it captured the small eddies forming in the corners. I also conducted a more involved grid independence study and I compared the velocity profiles through the geometric center of the cavity. These graphs are much less interesting, so for now I hope my readers can take my word for it.
@@ -46,21 +46,21 @@ Below I present some plots to demonstrate the power of this generalization where
 
 Flow in a square is cool and all, but variety is the spice of life. How about some rectangles? Below I present the same lid-driven flow problem with differently shaped cavities:
 
-![1:2 Aspect Ratio](..\assets\img\streamlines\1-2.png){: .mx-auto.d-block :}
+![1:2 Aspect Ratio](..\assets\img\streamlines\1-2.webp){: .mx-auto.d-block :}
 
-![2:1 Aspect Ratio](..\assets\img\streamlines\2-1.png){: .mx-auto.d-block :}
+![2:1 Aspect Ratio](..\assets\img\streamlines\2-1.webp){: .mx-auto.d-block :}
 
-![3:1 Aspect Ratio](..\assets\img\streamlines\3-1.png){: .mx-auto.d-block :}
+![3:1 Aspect Ratio](..\assets\img\streamlines\3-1.webp){: .mx-auto.d-block :}
 
 I found the taller boxes more pleasing to look at. Why not make one in the aspect ratio of a phone as a wallpaper? (For Galaxy S10e owners anyway)
 
-![19:9 Aspect Ratio](..\assets\img\streamlines\19-9.png){: .mx-auto.d-block :}
+![19:9 Aspect Ratio](..\assets\img\streamlines\19-9.webp){: .mx-auto.d-block :}
 
 ### Changing the Boundary Conditions (Point 3)
 
 Let's move beyond your average every day lid driven flow, into advanced lid driven flow. How about a container where the flow on the right and left walls is driven upwards?
 
-![Bowtie Flow!](..\assets\img\streamlines\bowtie.png){: .mx-auto.d-block :}
+![Bowtie Flow!](..\assets\img\streamlines\bowtie.webp){: .mx-auto.d-block :}
 
 I affectionately refer to this as 'bowtie flow'
 
@@ -68,29 +68,29 @@ I affectionately refer to this as 'bowtie flow'
 
 Point 5 is especially powerful; it allows us to effectively model flow in or around *any* shapes. Consider a box with a step in the lower left corner. Simply enough, we can model this by simulating the entire encaspsulating square, and freezing the fluids velocity to zero in places we want to exclude from our domain of interest:
 
-![Back Step Flow](..\assets\img\streamlines\backstep.png){: .mx-auto.d-block :}
+![Back Step Flow](..\assets\img\streamlines\backstep.webp){: .mx-auto.d-block :}
 
 ### Flow around obstacles (Point 5)
 
 The really fun part about Point 5 is that we can model flow around any arbitray obstacle as well! Below I place a square in the middle of the original lid-driven cavity flow problem:
 
-![Square Flow](..\assets\img\streamlines\squareflow.png){: .mx-auto.d-block :}
+![Square Flow](..\assets\img\streamlines\squareflow.webp){: .mx-auto.d-block :}
 
 I extended my code so I could take any black and white image and use it as a "mask" to create flow around it as an obstacle. Lets see if old spongebob is as hydrodynamic as he [claims](https://youtu.be/USEnoc6B9zw). First we start with a profile of our character:
 
-![Spongebob](..\assets\img\streamlines\sponge.png){: .mx-auto.d-block :}
+![Spongebob](..\assets\img\streamlines\sponge.webp){: .mx-auto.d-block :}
 
 Then we use our editting software of choice to conver this to a black and white mask:
 
-![Spongebob Mask](..\assets\img\streamlines\spongemask.png){: .mx-auto.d-block :}
+![Spongebob Mask](..\assets\img\streamlines\spongemask.webp){: .mx-auto.d-block :}
 
 And we plug and play:
 
-![Sponge Flow](..\assets\img\streamlines\spongeflow.png){: .mx-auto.d-block :}
+![Sponge Flow](..\assets\img\streamlines\spongeflow.webp){: .mx-auto.d-block :}
 
 Can you guess this other bikini bottom resident below? Try saving the image for a hint 😉.
 
-![Star Flow](..\assets\img\streamlines\starflow.png){: .mx-auto.d-block :}
+![Star Flow](..\assets\img\streamlines\starflow.webp){: .mx-auto.d-block :}
 
 
 ## Closing thoughts
