@@ -80,7 +80,7 @@ I extended my code so I could take any black and white image and use it as a "ma
 
 ![Spongebob](..\assets\img\streamlines\sponge.webp){: .mx-auto.d-block :}
 
-Then we use our editting software of choice to conver this to a black and white mask:
+Then we use our editting software of choice to convert this to a black and white mask:
 
 ![Spongebob Mask](..\assets\img\streamlines\spongemask.webp){: .mx-auto.d-block :}
 
