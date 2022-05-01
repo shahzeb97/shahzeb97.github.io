@@ -1,0 +1,2 @@
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QI wrote this bot , I thought it might be interesting to log my stream of consciousness as I tango with the decisions I made two years ago.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QI wrote this tool in Python when I first learned the language almost 2 years ago, and I'm sure I made it suboptimally.\\E$"}

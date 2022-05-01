@@ -1,0 +1,20 @@
+I"8<h1 id="going-back-to-an-old-well">Going Back to an Old Well</h1>
+
+<p>I haven’t made a new post in some time now. I was hoping to update this blog every once in a while with new projects, papers, and proclivities. Unfortunately, I underestimated how busy I’d be and how motivated I’d be to set time aside for a new project. My winter semester is over and the spring of 2022 seems to be delayed; I’m at a delightful intersection where no one expects anything from me and I can’t do much outside anyway. I’m sitting in my parents’ lawn, watching our cats, and I want to make something.</p>
+
+<p>I don’t have the time to make something from scratch, but I do have one old project I wanted to remake: the Wikipedia Network Research Assistant. I wrote this tool in Python when I first learned the language almost 2 years ago, and I’m sure I made it suboptimally. As a fun idea, I thought I could log my stream of consciousness as I rediscover my old work, and try to make it better.</p>
+
+<h1 id="the-wikipedia-network-research-assistant-wnra-concept">The Wikipedia Network Research Assistant (WNRA) Concept</h1>
+
+<p>(<em>Not to be confused with the Women’s National Rifle Association</em>)</p>
+
+<p>The premise here was simple:</p>
+
+<ol>
+  <li>Ask the user for a term</li>
+  <li>Look up the Wikipedia article for that term</li>
+  <li>Using some heuristic, figure out a list of the most commonly related terms</li>
+  <li>Recursively figure out what terms are related to those terms (with a configurable depth and breadth of the search)</li>
+  <li>Visualize the results</li>
+</ol>
+:ET
