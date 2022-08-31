@@ -1,0 +1,108 @@
+I"�!<h1 id="taking-time-to-smell-the-roses">Taking Time to Smell the Roses</h1>
+
+<p>I haven’t made a new post in some time now. In between writing scripts for my experiments and LaTeX, I have little time to program for fun. Thankfully, my winter semester is over and the spring of 2022 seems to be delayed; I’m at a delightful intersection where no one expects anything from me and I can’t do much outside anyway. I’m sitting in my parents’ lawn, watching our cats, and I want to make something.</p>
+
+<p>I don’t have the time to make something from scratch, but I do have one old project I wanted to remake: the Wikipedia Network Research Assistant. Two years ago, I wrote a version of this tool in Python when I first learned the language. I’m sure I made it suboptimally, I’d like to return to this well.</p>
+
+<h1 id="the-wikipedia-network-research-assistant-wnra-concept">The Wikipedia Network Research Assistant (WNRA) Concept</h1>
+
+<p>(<em>Not to be confused with the Women’s National Rifle Association</em>)</p>
+
+<p>The premise here is simple:</p>
+
+<ol>
+  <li>Ask the user for a term.</li>
+  <li>Look up the Wikipedia article for that term.</li>
+  <li>Using some heuristic, figure out a list of the most commonly related terms.</li>
+  <li>Recursively figure out what terms are related to those terms (with a configurable depth and breadth of the search).</li>
+  <li>Visualize the results.</li>
+</ol>
+
+<p>I used the first libraries I could find for this kind of task: <a href="https://github.com/martin-majlis/Wikipedia-API">Wikipedia-API</a> to scan the Wikipedia pages and <a href="https://networkx.org/">NetworkX</a> to visualize the results in a network plot. After about 90 lines of code, I was really happy with the results, presented below:</p>
+
+<!-- ![Now that's a lot of latin](..\assets\img\wiki\old\Cactus.webp){: .mx-auto.d-block :}
+<figcaption align = "center"><i>Cactus</i></figcaption> -->
+
+<p><img src="..\assets\img\wiki\old\cat.webp" alt="" class="mx-auto d-block" /></p>
+<figcaption align="center"><i>Cat</i></figcaption>
+
+<!-- ![](..\assets\img\wiki\old\OmShantiOm.webp){: .mx-auto.d-block :}
+<figcaption align = "center"><i>Om Shanti Om</i></figcaption> -->
+
+<!-- ![](..\assets\img\wiki\old\PostMalone.webp){: .mx-auto.d-block :}
+<figcaption align = "center"><i>Post Malone</i></figcaption> -->
+
+<p><img src="..\assets\img\wiki\old\TaylorSwift.webp" alt="" class="mx-auto d-block" /></p>
+<figcaption align="center"><i>Taylor Swift</i></figcaption>
+
+<p><img src="..\assets\img\wiki\old\Toronto.webp" alt="" class="mx-auto d-block" /></p>
+<figcaption align="center"><i>Toronto</i></figcaption>
+
+<p>There are a few things that stick out to me about the results here:</p>
+
+<ol>
+  <li>
+    <p>It’s unreadable (I didn’t care to look any deeper in the <a href="https://networkx.org/">NetworkX</a> library to make text a little more legible. The sun is setting and it’s time to take my cats back inside.)</p>
+  </li>
+  <li>
+    <p>The way networks form is surprisingly pleasing to the eye, even though I didn’t spend any effort on this part. Shout-out to the developers of <a href="https://networkx.org/">NetworkX</a>.</p>
+  </li>
+  <li>
+    <p>I could apply this to other APIs: <a href="https://github.com/ElsevierDev/elsapy">Elsevier</a>, <a href="https://developer.ieee.org/Python_Software_Development_Kit">IEEE</a>, and <a href="https://github.com/scholarly-python-package/scholarly">Google Scholar</a> all seem to have some sort of API accessible through Python (even if they are not official).</p>
+  </li>
+  <li>
+    <p>Kanye West does not show up in Taylor Swift’s network.</p>
+  </li>
+  <li>
+    <p>There’s no child nodes that connect to each other. Did I forget to program that in or is that somehow just how these results look? My guess is I forgot.</p>
+  </li>
+  <li>
+    <p>There’s no visual indication here of whether there is a two-way connection between parent nodes and their children. In other words, there’s no way to know if a node is the child of its own children. In other words, is a node <a href="https://youtu.be/lxL9dl1zR0o?t=75">its own grandparent?</a></p>
+  </li>
+  <li>
+    <p>These results are extremely cherry-picked - If I recall, most terms would throw errors for some reason (and I can’t remember if that was a flaw with my code or the Wikipedia library)</p>
+  </li>
+</ol>
+
+<p>I will stop myself before I get too deep into potential improvements. That well would never end.</p>
+
+<h1 id="timeline-of-remaking">Timeline of Remaking</h1>
+
+<h3 id="445-pm">4:45 PM</h3>
+
+<p>I’ve come back inside the house; the outdoors is no place for srs bsns like this. I have my old code open, and the first thing I notice is I didn’t stop at the network plots, apparently I also made a little <strong>Command Line Game</strong> for people to try and get from Wikipedia article A to B. It’s not very difficult, but I like the concept. There’s also a <strong>Wikipedia Summary Exporter</strong> which uses the Wikipedia-API in the most basic way to export the page’s summary. I guess I was experimenting before I dove deeper in.</p>
+
+<p>I also found a list of TODO items for my original network graph in the comments. This is so interesting, past Shahzeb and I really do think alike:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'''
+Information to Embed in graph
+1. Word Count of Article (Size of Node)
+2. Date Article was created (Transparency of Node)
+3. Degrees of Separation from Initial (Colour of Node/Edge)
+4. Number of cross-references between articles (Thickness of edge)
+'''
+</code></pre></div></div>
+
+<p>These are pretty good ideas, I’ll steal them.</p>
+
+<p>If I remake this, what am I going to improve exactly? The code does the job. I will focus on improving the heuristics I use to make the graphs, and then improve the readability of the plots.</p>
+
+<h3 id="545-pm">5:45 PM</h3>
+
+<p>I took a long break, now I can actually begin the code. As I read through the official docs, its becoming clear to me that there are <a href="https://www.mediawiki.org/wiki/API:Client_code">several</a> client APIs for the official <a href="https://www.mediawiki.org/wiki/API:Main_page">MediaWiki API</a>. I guess people make it their pet project to do this kind of thing. The API I used earlier must have just been the first google result, and I didn’t know enough about APIs to dig further. Honestly, it was definitely the right call to just find the first thing that worked and get a result.</p>
+
+<p>This time, I think I’ll do my homework. It seems like <a href="https://www.mediawiki.org/wiki/Manual:Pywikibot">PyWikiBot</a> is the most up-to-date and powerful wrapper, useful for those who want to make bots to edit/monitor pages (<em>Seems entirely too dense for my purposes</em>). <a href="https://github.com/nyurik/pywikiapi">PyWikiApi</a> is a minimalistic library for the core MediaWiki API written by the original author (<em>seems powerful, but the syntax and API calls seem a little complex</em>). <a href="https://github.com/goldsmith/Wikipedia">Wikipedia</a> is the most popular API, though it hasn’t been updated in some time. Still, I think the last one is the best option since I don’t need to be a Wikipedia API pro at the end of this, and I really just want something working. Move fast and break things, like the saying goes.</p>
+
+<h3 id="645-pm">6:45 PM</h3>
+
+<p>Things are going well, I’m taking a break to fix my fridge</p>
+
+<h3 id="445-pm-the-next-day">4:45 PM (the next day)</h3>
+
+<p>Eid Mubarak! Fixing the fridge was quick, but the ensuing activities were not. I’m back at my code now and it seems like this new <a href="https://github.com/goldsmith/Wikipedia">Wikipedia</a> library is functionally identical to the <a href="https://github.com/martin-majlis/Wikipedia-API">Wikipedia-API</a> library I was using in the first iteration. It also has the same bugs - I try to search New York City and it hits me with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PageError: Page id "new york sity" does not match any pages. Try another id!
+</code></pre></div></div>
+
+<p>Guess the fault wasn’t in my code, but in the stars. It would be too easy if the solutions of the past worked again. To make any kind of robust solution, I need to use a more official library. The path of least resistance would be <a href="https://github.com/nyurik/pywikiapi">PyWikiApi</a>. The documentation was a little sparse, so this might take a while longer.</p>
+:ET
