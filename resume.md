@@ -53,6 +53,18 @@ SOLIDWORKS, Autodesk Inventor, AutoCAD
 **Computational Fluid Dynamics**  
 ANSYS, COMSOL, StarCCM+
 
+# Honours and Awards
+
+| Award | Year(s) Received |
+| :------ |:--- |
+| Climate Positive Energy Graduate Scholarship | 2022 |
+| Queen Elizabeth II Graduate Scholarship in Science & Technology | 2022 |
+| Northern Lights Thorsten Watterodt Award for Excellence in Design | 2020 |
+| Hutton Family Scholarship in Engineering | 2020 |
+| Louise McKinney Post-Secondary Scholarship | 2019, 2017, 2016 |
+| Nelson Book Prize for Excellence in Technical Writing | 2018 |
+| Faculty of Engineering Academic Excellence Scholarship | 2015 |
+
 # Language Skills  
 **Urdu/Hindi** - Fluent
 
