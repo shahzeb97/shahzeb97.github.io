@@ -1,7 +1,0 @@
-I")<h1 id="android-development-with-flutter">Android Development with Flutter</h1>
-
-<p>Over the pandemic, I finally took the time to learn how to make a mobile phone app. After reading several articles about the different ways this could be done (native development, React Native, Xamarin, etc.) I settled on using Google’s fresh new (at the time at least) framework for cross-platform app development: <a href="https://flutter.dev/">https://flutter.dev/</a>.</p>
-
-<p><img src="..\assets\img\noname\flutter" alt="Flutter" class="mx-auto d-block" /></p>
-
-:ET
