@@ -1,0 +1,12 @@
+I"<h1 id="android-development-with-flutter">Android Development with Flutter</h1>
+
+<p>Over the pandemic, I finally took the time to learn how to make a mobile phone app. After reading several articles about the different ways this could be done (native development, React Native, Xamarin, etc.) I settled on using Google’s fresh new (at the time at least) framework for cross-platform app development: <a href="https://flutter.dev/">Flutter</a>.</p>
+
+<p><img src="..\assets\img\noname\flutter.webp" alt="Flutter" class="mx-auto d-block" /></p>
+
+<p>Flutter is a very straight-forward, Dart-based framework that offered hot-reload, JIT compilation, and a very well-thought-out library of “widgets” that would let me beautify my app. After familiarizing myself with the basics, I wanted to make a simple app with a very distinct look.</p>
+
+<h1 id="the-no-name-appeal">The no name® Appeal</h1>
+
+<p>I’ve always loved the no name® brand <a href="https://youtu.be/78feeBgCwkA">identity</a>. It’s clean, punchy, delightfully</p>
+:ET

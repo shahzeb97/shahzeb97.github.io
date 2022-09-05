@@ -1,0 +1,36 @@
+I"/<h1 id="android-development-with-flutter">Android Development with Flutter</h1>
+
+<p>Over the pandemic, I finally took the time to learn how to make a mobile phone app. After reading several articles about the different ways this could be done (native development, React Native, Xamarin, etc.) I settled on using Google’s fresh new (at the time at least) framework for cross-platform app development: <a href="https://flutter.dev/">Flutter</a>.</p>
+
+<p><img src="..\assets\img\noname\flutter.webp" alt="Flutter" class="mx-auto d-block" /></p>
+
+<p>Flutter is a very straight-forward, Dart-based framework that offered hot-reload, JIT compilation, and a very well-thought-out library of “widgets” that would let me beautify my app. After familiarizing myself with the basics, I wanted to make a simple app with a very distinct look.</p>
+
+<h1 id="the-no-name-appeal">The no name® Appeal</h1>
+
+<p>I’ve always loved the no name® brand <a href="https://youtu.be/78feeBgCwkA">identity</a>. It’s clean, punchy, delightfully mellow, and shockingly easy to recreate.</p>
+
+<p><img src="..\assets\img\noname\noname.webp" alt="no name®" class="mx-auto d-block" /></p>
+
+<p>I also loved the subtly snarky “tag lines” the marketing team put under certain products. A no name® brand water bottle might be labelled:</p>
+
+<h3 id="water-bottle">water bottle</h3>
+<h5 id="for-drinking">for drinking</h5>
+
+<p>With this identity in mind, and using the closest font to Helvetica I could find, I coded up a simple Android app!</p>
+
+<h1 id="pictures">Pictures</h1>
+
+<p><img src="..\assets\img\noname\nonameportrait.webp" alt="Portrait Screenshot" class="mx-sm-auto d-block" /></p>
+
+<p><img src="..\assets\img\noname\nonamelandscape.webp" alt="Landscape Screenshot" class="mx-auto d-block" /></p>
+
+<h1 id="videos">Videos</h1>
+
+<video width="50%" preload="auto" muted="" controls="">
+    <source src="..\assets\img\noname\vids\delete.mp4" type="video/mp4" />
+</video>
+<video width="50%" preload="auto" muted="" controls="">
+    <source src="..\assets\img\noname\vids\edit.mp4" type="video/mp4" />
+</video>
+:ET
