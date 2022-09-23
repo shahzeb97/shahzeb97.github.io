@@ -4,6 +4,8 @@ title: Presenting at the Inaugural Climate Positive Energy Research Day
 subtitle: A Project Showcase and Student Awards Event
 ---
 
+> Speak now or forever hold your peace.
+
 On August 17<sup>th</sup>, 2022, the University of Toronto Climate Positive Energy (CPE) Initiative hosted its first ever [Research Day](https://cpe.utoronto.ca/cpe-wraps-up-research-day-2022/). As part of the cohort of graduate students funded in part through this initiative, I was lucky enough to be able to present a 3-minute outline of my work. 
 
 In an earlier [post](https://shahzeb97.github.io/2022-05-06-cpe/), I mentioned that I would be participating in such an event. Presenting was an honor (and a lot of fun) and I'd like to thank the CPE initiative and technicians for making the event possible!

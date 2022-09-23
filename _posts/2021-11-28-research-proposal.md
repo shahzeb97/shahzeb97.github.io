@@ -4,6 +4,8 @@ title: Meltdown Imminent
 subtitle: Metallic Phase Change Materials for Fast Chargers
 ---
 
+> To new beginnings...
+
 # In a Tweet:
 Electric vehicles could be charged a lot faster if we could keep the power electronics cool. What if we did that with melting metals?
 
