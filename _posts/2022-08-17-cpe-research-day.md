@@ -2,9 +2,14 @@
 layout: post
 title: Presenting at the Inaugural Climate Positive Energy Research Day
 subtitle: A Project Showcase and Student Awards Event
+tags: [research, presentations, CPE]
 ---
 
-> Speak now or forever hold your peace.
+> Hey freak show! You're going nowhere. I got you for three minutes. 
+
+-[Bonesaw, Spider-Man (2002)](https://youtu.be/HKUDrh1vU_A)
+
+<!--more-->
 
 On August 17<sup>th</sup>, 2022, the University of Toronto Climate Positive Energy (CPE) Initiative hosted its first ever [Research Day](https://cpe.utoronto.ca/cpe-wraps-up-research-day-2022/). As part of the cohort of graduate students funded in part through this initiative, I was lucky enough to be able to present a 3-minute outline of my work. 
 

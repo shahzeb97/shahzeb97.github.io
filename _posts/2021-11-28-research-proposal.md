@@ -2,9 +2,14 @@
 layout: post
 title: Meltdown Imminent
 subtitle: Metallic Phase Change Materials for Fast Chargers
+tags: [research]
 ---
 
-> To new beginnings...
+> A journey of a thousand miles begins with a single step
+
+-[Lao Tzu, *Tao Te Ching* (6th century BC)](https://www.gutenberg.org/ebooks/49965)
+
+<!--more-->
 
 # In a Tweet:
 Electric vehicles could be charged a lot faster if we could keep the power electronics cool. What if we did that with melting metals?

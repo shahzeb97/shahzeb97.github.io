@@ -2,11 +2,14 @@
 layout: post
 title: Fluid Simulation from Scratch
 subtitle: The SIMPLE Way
+tags: [programming, CFD, projects, python]
 ---
 
 > I'm Hydrodynamically Designed!
 
 -[Spongebob Squarepants](https://youtu.be/USEnoc6B9zw)
+
+<!--more-->
 
 ## Why?
 

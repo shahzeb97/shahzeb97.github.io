@@ -92,6 +92,9 @@ share-links-active:
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
+# Separator between the title and the excerpt in the feed page
+excerpt_separator: <!--more-->
+
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
 
@@ -102,7 +105,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "university,toronto,engineering,msc, masters,mechanical,masc,ev,fluids,thermodynamics,shahzeb,mirza,eit,cnrl,uoft,engineer,flutter,python"
+keywords: "university,toronto,engineering,msc, masters,mechanical,masc,ev,fluids,thermodynamics,shahzeb,mirza,eit,cnrl,uoft,engineer,flutter,python, electric, vehicle, graduate"
 
 # --- Colours / background image --- #
 
