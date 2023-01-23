@@ -1,59 +1,67 @@
 ---
 layout: page
-title: Shahzeb Mirza
+title: Shahzeb Mirza Resume
 subtitle: MASc Candidate, Mechanical and Industrial Engineering, University of Toronto
 ---
+
+*Shorter summary of my skills*
 
 # Education
 **MASc, [Mechanical and Industrial Engineering, University of Toronto](https://www.mie.utoronto.ca/)**  
 September 2021 - Present, GPA 4.0/4.0
+
+* Developed novel analytic models to predict the performance of phase change material‑based thermal management systems, supervised by [Dr. Sanjeev Chandra](https://www.mie.utoronto.ca/faculty_staff/chandra/) ([CACT](http://cact.utoronto.ca/)) and [Dr. Cristina H. Amon](https://www.mie.utoronto.ca/faculty_staff/amon/) ([ATOMS Lab](https://atoms.mie.utoronto.ca/)).
+* Worked in interdisciplinary team to design and experimentally study novel thermal management system for 100 kW fast charger.
+* Recipient of $15,000 Climate Positive Energy Scholarship for sustainable energy research.
+* Recipient of $15,000 Queen Elizabeth II Graduate Scholarship in Science & Technology for excellence in graduate studies.
+
 
 **BSc, [Mechanical Engineering, Co-op, University of Alberta](https://www.ualberta.ca/engineering/mechanical-engineering/index.html)**  
 September 2015 - June 2020, GPA 3.9/4.0
 
 # Work Experience
 
-**MASc Candidate, University of Toronto, [CACT](http://cact.utoronto.ca/) / [ATOMS Lab](https://atoms.mie.utoronto.ca/)**  
-September 2021 - Present
-* Designed and experimentally studied performance of phase change material-based thermal management systems for electric vehicle power electronics.
-* Worked collaboratively with University of Toronto Electric Vehicle team on novel 100 kW Fast Charger project.
-
-**EIT, Static Equipment Albian Site, [CNRL](https://www.cnrl.com/)**  
+**Mechanical Engineering Student, Static Equipment Engineering Albian Site, [CNRL](https://www.cnrl.com/)**  
 May 2020 - December 2020  
-<!-- * Supported the safe and reliable operation of static equipment for Jackpine and Muskeg River mines’ downstream facilities including ore prep, extraction, froth treatment, and utilities. -->
-* Supported the safe and reliable operation of static equipment for multiple oil sand mines’ downstream facilities including ore prep, extraction, froth treatment, and utilities.
-* Developed tools in Excel to automate design calculations for piping systems aligned with ASME B31.3 and ASME BPVC codes, saving significant engineering time weekly.
-* Created accurate database of all onsite heat exchangers to inform future maintenance procedures, support failure root cause analyses, and reduce equipment downtime. 
+* Supported the safe and reliable operation of static equipment at major oil sands downstream site including ore prep, extraction, froth treatment, and utilities
+* Created and maintained database of properties of 40+ onsite shell‑and‑tube heat exchangers to calculate bolt torque requirements, inform future maintenance procedures, support failure root cause analyses, and reduce equipment downtime.
+* Developed automated tools to perform critical piping design calculations aligned with ASME B31.3 and ASME BPVC codes, reducing required engineering time by 50‑90%.
 
 **Project Coordinator, Morinville School Team [Aman Builders](https://www.amanbuilders.ca/)**  
 August 2019 - December 2019  
-* Coordinated schedules, communications, and budgets between owners, consultants, sub-trades, and suppliers for a new $15M school construction project.
-* Established and maintained good working relationships with business partners for upcoming construction projects.
+* Coordinated schedules, communications, and budgets between owners, consultants, sub‑trades, and suppliers for a new $15M school construction project, and established good working relationships with new partners during tender process for upcoming projects.
+* Diligently tracked daily progress and ensured all deadlines were met up to final inspection and occupancy handover.
 
 **Engineering Student, Fleet and Facility Services, [City of Edmonton](https://www.edmonton.ca/city_government/city_organization/fleet-and-facility-services)**  
 April 2018 - December 2018
-* Supported the safe and reliable operation of all municipal vehicles including designing modifications, issuing repair procedures, and developing preventive maintenance strategies. 
-* Investigated acute failures and fleet-wide trends in equipment malfunctions to prepare summary reports for senior engineers and develop SOP’s based on findings.
+* Assisted the maintenance and general engineering support for fleet of 5000+ municipal vehicles, including designing modifications, developing preventive maintenance strategies, and issuing repair procedures to ensure safe and reliable operation.
+* Investigated fleet‑wide trends in lawnmower malfunctions for senior engineers and developed recommendations to increase availability by 20%.
+* Implemented new system to routinely measure heavy diesel truck emissions to ensure compliance with EPA regulations.
 
 **Research Associate, University of Alberta, [DTECL](https://sites.ualberta.ca/~dnobes/research_1.html)**  
 April 2017 - December 2017  
-* Experimentally studied novel low-temperature Stirling engine designs for geothermal energy generation from low-grade heat sources, funded by NSERC undergraduate student research award.
-* Developed custom second-order engine model in MATLAB to study engine performance and optimize engine geometry.
+* Experimentally studied novel low‑temperature Stirling engine designs for geothermal energy generation from low‑grade heat sources, supervised by [Dr. David Nobes](https://apps.ualberta.ca/directory/person/dnobes) ([dTECL](https://sites.ualberta.ca/~dnobes/index.html)) and funded by NSERC undergraduate student research award.
+* Developed custom second‑order engine model in MATLAB to study engine performance and optimize engine geometry
 
-# Technical Skills
-**Programming**  
-Python, MATLAB, Dart, C, SQL, Lua, GDScript, Javascript
-
-**Software Development Frameworks**  
-Flutter, Godot
+# Skills
 
 **Solid Modelling / Drafting**  
-SOLIDWORKS, Autodesk Inventor, AutoCAD
+SOLIDWORKS • AutoCAD • Autodesk Inventor • Autodesk Fusion 360
 
 **Computational Fluid Dynamics**  
-ANSYS, COMSOL, StarCCM+
+COMSOL • ANSYS CFD • STAR‑CCM+ • OpenFOAM
 
-# Honours and Awards
+**Programming**  
+Python • MATLAB • Dart • C • SQL • LaTeX
+
+**Software Development Libraries Frameworks**  
+NumPy • SciPy • Pandas • Matplotlib • Flutter • Jekyll
+
+**Languages**  
+Urdu (Spoken/Written) • Hindi (Spoken) • French (Certified DELF B1)
+
+
+<!-- # Honours and Awards
 
 | Award | Year(s) Received |
 | :------ |:--- |
@@ -68,4 +76,4 @@ ANSYS, COMSOL, StarCCM+
 # Language Skills  
 **Urdu/Hindi** - Fluent
 
-**French** - Certified Competence (Diplôme d’Études en Langue Française Delf - B1)
+**French** - Certified Competence (Diplôme d’Études en Langue Française Delf - B1) -->
