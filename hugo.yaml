@@ -1,4 +1,4 @@
-baseURL: "https://example.org/"
+baseURL: "https://shahzeb97.github.io/"
 languageCode: en-us
 title: Shahzeb97
 copyright: Shahzeb97
@@ -202,4 +202,3 @@ caches:
   images:
     dir: :cacheDir/images
 
-    
