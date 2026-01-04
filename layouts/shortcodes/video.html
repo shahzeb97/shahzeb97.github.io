@@ -1,0 +1,7 @@
+<figure style="text-align: center;">
+<video style="max-width: 100%;" {{ with .Get "width" }}width="{{ . }}"{{ end }} {{ if .Get "autoplay" }}autoplay{{ end }} {{ if .Get "loop" }}loop{{ end }} {{ if .Get "muted" }}muted{{ end }} playsinline controls>
+  <source src="{{ .Get "src" }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

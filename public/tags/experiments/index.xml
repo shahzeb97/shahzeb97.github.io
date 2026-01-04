@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Experiments on Shahzeb97</title>
+    <link>http://localhost:64182/tags/experiments/</link>
+    <description>Recent content in Experiments on Shahzeb97</description>
+    <generator>Hugo -- 0.153.5</generator>
+    <language>en-us</language>
+    <copyright>Shahzeb97</copyright>
+    <lastBuildDate>Sun, 01 Sep 2024 04:32:53 -0500</lastBuildDate>
+    <atom:link href="http://localhost:64182/tags/experiments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Published in IJHMT &#43; My Thesis</title>
+      <link>http://localhost:64182/posts/journalpaper/</link>
+      <pubDate>Sun, 01 Sep 2024 04:32:53 -0500</pubDate>
+      <guid>http://localhost:64182/posts/journalpaper/</guid>
+      <description>Getting my first journal publication in International Journal of Heat and Mass Transfer (IJHMT). Finally.</description>
+    </item>
+  </channel>
+</rss>

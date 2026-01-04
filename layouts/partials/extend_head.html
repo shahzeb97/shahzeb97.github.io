@@ -1,0 +1,11 @@
+{{- /* Include local custom CSS for homepage grid/cards */ -}}
+{{- $custom := resources.Get "css/custom-grid.css" -}}
+{{- if $custom -}}
+  {{- $custom = $custom | resources.Minify -}}
+  {{- if not site.Params.assets.disableFingerprinting -}}
+    {{- $custom = $custom | fingerprint -}}
+    <link crossorigin="anonymous" href="{{ $custom.RelPermalink }}" integrity="{{ $custom.Data.Integrity }}" rel="stylesheet">
+  {{- else -}}
+    <link crossorigin="anonymous" href="{{ $custom.RelPermalink }}" rel="stylesheet">
+  {{- end -}}
+{{- end -}}

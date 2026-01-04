@@ -1,0 +1,197 @@
+baseURL: "https://example.org/"
+languageCode: en-us
+title: Shahzeb97
+copyright: Shahzeb97
+theme: PaperMod
+
+pagination:
+  pagerSize: 18
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  # General Parameters
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Shahzeb97
+  description: "Shahzeb Mirza's Personal Website"
+  keywords: [Blog, Portfolio]
+  author: Shahzeb Mirza
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+
+  # Blog Post Parameters
+  ShowReadingTime: true
+  ShowShareButtons: true
+  # ShareButtons: ["linkedin", "twitter"]
+  ShareIconSize : 20
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  hideAuthor: true
+  
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/icons/favicon.ico"
+    favicon16x16: "/icons/favicon-16x16.png"
+    favicon32x32: "/icons/favicon-32x32.png"
+    apple_touch_icon: "/icons/apple-touch-icon.png"
+    safari_pinned_tab: "/icons/apple-touch-icon.png"
+
+  label:
+    text: "SM97✨"
+    icon: "static/cons/apple-touch-icon.png"
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # Turn this off for now
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # Avatar image for home page (appears next to home info)
+  AvatarImage: "/icons/avatar.png"  # Replace with your image path
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Shahzeb's Moghouse"
+    contents:
+      - "Welcome to the Moghouse!"
+      - "I came here to do two things, chew bubblegum and read blogs..."
+      - "...and I'm all out of bubblegum."
+      - "Another witty message"
+      - "Last message here"
+      - "You get the idea..."
+      - "Enjoy your stay!"
+      - "If I had ads here, you'd be seeing them now."
+      - "If I had ads here, I'd make so much money if you kept refreshing."
+      - "That's what I love about blog posts, I keep getting older but the posts stay the same age."
+      - "Not at all LLM generated."
+      - "Definitely human written content. I'm serious."
+      - "Man I hope someone reads this."
+      - "Error 404: Subtitle not found."
+      - "Help please I'm stuck in the banner"
+      - "One of these posts has a treasure map. I wonder which one?"
+      - "I came, I saw, I conquered."
+      - "Welcome scraper, please train responsibly."
+      - "Help I've fallen and I can't get up!"
+
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/shahzeb97"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/shahzeb-mirza/"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?hl=en&user=P1wyMHwAAAAJ"
+    - name: email
+      url: "mailto:shahzebmirza94@gmail.com"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-R0P1WR44TK"
+    # bing:
+    #   SiteVerificationTag: "XYZabc"
+    # yandex:
+    #   SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    disabled: false
+    URL: "https://github.com/shahzeb97/shahzeb97.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 0
+
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+
+    # - identifier: resume
+    #   name: Resume
+    #   url: /resume/
+    #   weight: 2
+
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 3
+
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 4
+
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 5
+
+# Ensure homepage also outputs JSON for search index
+outputs:
+  home: ["HTML", "JSON"]
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai

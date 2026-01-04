@@ -1,0 +1,33 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    {{- with site.Params.AvatarImage }}
+    <div class="home-info-avatar mobile-avatar">
+        <img src="{{ . }}" alt="Profile photo" class="avatar-img" />
+    </div>
+    {{- end }}
+    <div class="home-info-wrapper">
+        <div class="home-info-content">
+            <header class="entry-header">
+                <h1>{{ .Title | markdownify }}</h1>
+            </header>
+            <div class="entry-content">
+                <p id="random-content"></p>
+            </div>
+            <footer class="entry-footer">
+                {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+            </footer>
+        </div>
+        {{- with site.Params.AvatarImage }}
+        <div class="home-info-avatar desktop-avatar">
+            <img src="{{ . }}" alt="Profile photo" class="avatar-img" />
+        </div>
+        {{- end }}
+    </div>
+</article>
+{{- end -}}
+
+<script>
+  const contents = JSON.parse('{{ site.Params.homeInfoParams.contents | jsonify }}');
+  const randomIndex = Math.floor(Math.random() * contents.length);
+  document.getElementById('random-content').innerHTML = contents[randomIndex];
+</script>

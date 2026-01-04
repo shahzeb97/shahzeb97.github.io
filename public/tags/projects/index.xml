@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Shahzeb97</title>
+    <link>http://localhost:64182/tags/projects/</link>
+    <description>Recent content in Projects on Shahzeb97</description>
+    <generator>Hugo -- 0.153.5</generator>
+    <language>en-us</language>
+    <copyright>Shahzeb97</copyright>
+    <lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:64182/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gear Toy</title>
+      <link>http://localhost:64182/posts/gear/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:64182/posts/gear/</guid>
+      <description>A procedurally generated gear fidget toy made with the Godot game engine - hand-coded mesh generation with GDScript!</description>
+    </item>
+    <item>
+      <title>The Last Dodo</title>
+      <link>http://localhost:64182/posts/dodo/</link>
+      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:64182/posts/dodo/</guid>
+      <description>My first ever game jam entry - a game about the last dodo bird trying to escape extinction, made with the Godot Engine in 24 hours!</description>
+    </item>
+    <item>
+      <title>no name® Todo List App</title>
+      <link>http://localhost:64182/posts/noname/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:64182/posts/noname/</guid>
+      <description>A minimalist Flutter todo list app inspired by the no name® brand&amp;#39;s clean aesthetic - my CS50x final project!</description>
+    </item>
+    <item>
+      <title>Wikipedia Network Graph</title>
+      <link>http://localhost:64182/posts/wikibot/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:64182/posts/wikibot/</guid>
+      <description>A Wikipedia network visualization tool that creates beautiful graphs showing relationships between articles - gluing Python libraries together for fun!</description>
+    </item>
+  </channel>
+</rss>

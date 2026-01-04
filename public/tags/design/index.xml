@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Design on Shahzeb97</title>
+    <link>http://localhost:64182/tags/design/</link>
+    <description>Recent content in Design on Shahzeb97</description>
+    <generator>Hugo -- 0.153.5</generator>
+    <language>en-us</language>
+    <copyright>Shahzeb97</copyright>
+    <lastBuildDate>Thu, 31 Jul 2025 19:45:57 -0500</lastBuildDate>
+    <atom:link href="http://localhost:64182/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Cypress</title>
+      <link>http://localhost:64182/posts/cypress/</link>
+      <pubDate>Thu, 31 Jul 2025 19:45:57 -0500</pubDate>
+      <guid>http://localhost:64182/posts/cypress/</guid>
+      <description>A novel 1.5 HP, 3600 RPM NEMA 56 EC Motor, and my first product release with Conifer!</description>
+    </item>
+    <item>
+      <title>ASME Y14.5 Certified!</title>
+      <link>http://localhost:64182/posts/gdt/</link>
+      <pubDate>Mon, 17 Mar 2025 17:07:24 -0500</pubDate>
+      <guid>http://localhost:64182/posts/gdt/</guid>
+      <description>Me getting a few certifications in engineering drawing and GD&amp;amp;T through ASME</description>
+    </item>
+  </channel>
+</rss>

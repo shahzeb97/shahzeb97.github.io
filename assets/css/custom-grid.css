@@ -1,0 +1,227 @@
+/* Custom homepage grid and card styles - local override */
+
+/* ========================================
+   Home Info Avatar Styles
+   ======================================== */
+
+/* Avatar image base styles */
+.avatar-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile avatar - shown above title on narrow screens */
+.mobile-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+/* Desktop avatar - hidden on narrow screens */
+.desktop-avatar {
+    display: none;
+}
+
+/* Wrapper for flexbox layout on wide screens */
+.home-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-info-content {
+    width: 100%;
+}
+
+/* Wide screen layout (desktop) */
+@media (min-width: 768px) {
+    /* Hide mobile avatar on wide screens */
+    .mobile-avatar {
+        display: none;
+    }
+
+    /* Show desktop avatar on wide screens */
+    .desktop-avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-left: 2rem;
+    }
+
+    /* Horizontal layout on desktop */
+    .home-info-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .home-info-content {
+        flex: 1;
+    }
+
+    .avatar-img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* ========================================
+   Homepage Grid Styles
+   ======================================== */
+
+/* Widen the main container on pages with home-grid to match nav width */
+.main:has(.home-grid) {
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  /* Center the grid and make it match nav width */
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+  margin: calc(var(--gap) * 0.25) auto;
+  width: 100%;
+}
+
+/* Make the special first entry span full width */
+.home-grid .first-entry {
+  grid-column: 1 / -1;
+}
+
+.home-grid .post-entry {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.18s ease, transform 0.12s ease;
+  will-change: transform, box-shadow;
+  position: relative;
+}
+
+/* Subtle background image with blur - applied as pseudo-element */
+.home-grid .post-entry[data-has-bg="true"]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(1px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Overlay to keep text readable */
+.home-grid .post-entry[data-has-bg="true"]::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.75) 0%,
+    rgba(255, 255, 255, 0.85) 60%,
+    rgba(255, 255, 255, 0.92) 100%
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Dark mode overlay */
+[data-theme="dark"] .home-grid .post-entry[data-has-bg="true"]::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(46, 46, 51, 0.8) 0%,
+    rgba(46, 46, 51, 0.9) 60%,
+    rgba(46, 46, 51, 0.95) 100%
+  );
+}
+
+/* Improve text readability on cards with background images */
+.home-grid .post-entry[data-has-bg="true"] .entry-header h2 {
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.home-grid .post-entry[data-has-bg="true"] .entry-content {
+  color: var(--primary);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+[data-theme="dark"] .home-grid .post-entry[data-has-bg="true"] .entry-header h2,
+[data-theme="dark"] .home-grid .post-entry[data-has-bg="true"] .entry-content {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.home-grid .entry-content { 
+  flex: 1 1 auto;
+}
+
+/* Hover highlight and subtle lift */
+.home-grid .post-entry:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transform: translateY(-6px);
+  z-index: 2;
+}
+
+/* Keep the theme's active (click) shrink behaviour but with slightly stronger specificity */
+.home-grid .post-entry:active,
+.home-grid .post-entry .entry-link:active {
+  transform: scale(0.96) !important;
+}
+
+/* Responsive: max 3 columns, then 2, then 1 */
+@media (max-width: 1000px) {
+  .home-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .home-grid { grid-template-columns: 1fr; }
+}
+
+/* Small visual tweak for images inside cards to keep consistent sizing */
+.home-grid .entry-cover {
+  height: 180px;
+  overflow: hidden;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.home-grid .entry-cover img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/* Article quote styling in post entries */
+.article-quote {
+  margin: 12px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--secondary);
+  white-space: normal;
+  overflow: visible;
+  display: block;
+}
+
+.article-quote em {
+  font-style: italic;
+}
+
+/* Reduce vertical padding around home-info header */
+.first-entry.home-info {
+  margin: calc(var(--gap) * 0.5) 0 var(--gap) 0;
+  min-height: 200px;
+}
