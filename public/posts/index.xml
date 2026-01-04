@@ -2,116 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Shahzeb97</title>
-    <link>http://localhost:64182/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Shahzeb97</description>
     <generator>Hugo -- 0.153.5</generator>
     <language>en-us</language>
     <copyright>Shahzeb97</copyright>
     <lastBuildDate>Thu, 18 Sep 2025 20:30:40 -0500</lastBuildDate>
-    <atom:link href="http://localhost:64182/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Article in Pumps &amp; Systems Magazine</title>
-      <link>http://localhost:64182/posts/magazine/</link>
+      <link>http://localhost:1313/posts/magazine/</link>
       <pubDate>Thu, 18 Sep 2025 20:30:40 -0500</pubDate>
-      <guid>http://localhost:64182/posts/magazine/</guid>
+      <guid>http://localhost:1313/posts/magazine/</guid>
       <description>Check out this article I wrote on motors! Huge thanks to the Conifer team especially Stella Hur for the opportunity.</description>
     </item>
     <item>
       <title>Introducing Cypress</title>
-      <link>http://localhost:64182/posts/cypress/</link>
+      <link>http://localhost:1313/posts/cypress/</link>
       <pubDate>Thu, 31 Jul 2025 19:45:57 -0500</pubDate>
-      <guid>http://localhost:64182/posts/cypress/</guid>
+      <guid>http://localhost:1313/posts/cypress/</guid>
       <description>A novel 1.5 HP, 3600 RPM NEMA 56 EC Motor, and my first product release with Conifer!</description>
     </item>
     <item>
       <title>ASME Y14.5 Certified!</title>
-      <link>http://localhost:64182/posts/gdt/</link>
+      <link>http://localhost:1313/posts/gdt/</link>
       <pubDate>Mon, 17 Mar 2025 17:07:24 -0500</pubDate>
-      <guid>http://localhost:64182/posts/gdt/</guid>
+      <guid>http://localhost:1313/posts/gdt/</guid>
       <description>Me getting a few certifications in engineering drawing and GD&amp;amp;T through ASME</description>
     </item>
     <item>
       <title>Published in IJHMT &#43; My Thesis</title>
-      <link>http://localhost:64182/posts/journalpaper/</link>
+      <link>http://localhost:1313/posts/journalpaper/</link>
       <pubDate>Sun, 01 Sep 2024 04:32:53 -0500</pubDate>
-      <guid>http://localhost:64182/posts/journalpaper/</guid>
+      <guid>http://localhost:1313/posts/journalpaper/</guid>
       <description>Getting my first journal publication in International Journal of Heat and Mass Transfer (IJHMT). Finally.</description>
     </item>
     <item>
       <title>Many Updates!</title>
-      <link>http://localhost:64182/posts/updates/</link>
+      <link>http://localhost:1313/posts/updates/</link>
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/updates/</guid>
+      <guid>http://localhost:1313/posts/updates/</guid>
       <description>A quick update on life and work since my last post!</description>
     </item>
     <item>
       <title>Taking my Research to Conferences</title>
-      <link>http://localhost:64182/posts/conferences/</link>
+      <link>http://localhost:1313/posts/conferences/</link>
       <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/conferences/</guid>
+      <guid>http://localhost:1313/posts/conferences/</guid>
       <description>Taking my master&amp;#39;s research findings to ITherm 2023 in Orlando and IHTC 2023 in Cape Town - a world tour of conferences!</description>
     </item>
     <item>
       <title>Gear Toy</title>
-      <link>http://localhost:64182/posts/gear/</link>
+      <link>http://localhost:1313/posts/gear/</link>
       <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/gear/</guid>
+      <guid>http://localhost:1313/posts/gear/</guid>
       <description>A procedurally generated gear fidget toy made with the Godot game engine - hand-coded mesh generation with GDScript!</description>
     </item>
     <item>
       <title>The Last Dodo</title>
-      <link>http://localhost:64182/posts/dodo/</link>
+      <link>http://localhost:1313/posts/dodo/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/dodo/</guid>
+      <guid>http://localhost:1313/posts/dodo/</guid>
       <description>My first ever game jam entry - a game about the last dodo bird trying to escape extinction, made with the Godot Engine in 24 hours!</description>
     </item>
     <item>
       <title>no name® Todo List App</title>
-      <link>http://localhost:64182/posts/noname/</link>
+      <link>http://localhost:1313/posts/noname/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/noname/</guid>
+      <guid>http://localhost:1313/posts/noname/</guid>
       <description>A minimalist Flutter todo list app inspired by the no name® brand&amp;#39;s clean aesthetic - my CS50x final project!</description>
     </item>
     <item>
       <title>Presenting at the 1st CPE Research Day</title>
-      <link>http://localhost:64182/posts/cpe-rd/</link>
+      <link>http://localhost:1313/posts/cpe-rd/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/cpe-rd/</guid>
+      <guid>http://localhost:1313/posts/cpe-rd/</guid>
       <description>Presenting my 3-minute research outline at the inaugural CPE Research Day 2022 - A Project Showcase and Student Awards Event at the University of Toronto.</description>
     </item>
     <item>
       <title>Awarded the $15K Queen Elizabeth II Graduate Scholarship</title>
-      <link>http://localhost:64182/posts/qe2/</link>
+      <link>http://localhost:1313/posts/qe2/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/qe2/</guid>
+      <guid>http://localhost:1313/posts/qe2/</guid>
       <description>Awarded the Queen Elizabeth II Graduate Scholarship in Science and Technology (QEII-GSST) for 2022-2023 for research in thermal management strategies for electric vehicles.</description>
     </item>
     <item>
       <title>Awarded the $15K Climate Positive Energy Graduate Scholarship</title>
-      <link>http://localhost:64182/posts/cpe/</link>
+      <link>http://localhost:1313/posts/cpe/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/cpe/</guid>
+      <guid>http://localhost:1313/posts/cpe/</guid>
       <description>Selected as part of the first cohort of UofT&amp;#39;s Climate Positive Energy Initiative to research thermal management of EV power electronics using metallic phase change materials.</description>
     </item>
     <item>
       <title>Wikipedia Network Graph</title>
-      <link>http://localhost:64182/posts/wikibot/</link>
+      <link>http://localhost:1313/posts/wikibot/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/wikibot/</guid>
+      <guid>http://localhost:1313/posts/wikibot/</guid>
       <description>A Wikipedia network visualization tool that creates beautiful graphs showing relationships between articles - gluing Python libraries together for fun!</description>
     </item>
     <item>
       <title>Fluid Simulation from Scratch</title>
-      <link>http://localhost:64182/posts/streamlines/</link>
+      <link>http://localhost:1313/posts/streamlines/</link>
       <pubDate>Sun, 02 Jan 2022 03:25:26 -0500</pubDate>
-      <guid>http://localhost:64182/posts/streamlines/</guid>
+      <guid>http://localhost:1313/posts/streamlines/</guid>
       <description>A 2-D fluid simulation solver I made for a class in grad school 👨‍🎓. Built from scratch in Python using the SIMPLE algorithm, with flexible mask-based obstacles!</description>
     </item>
     <item>
       <title>Meltdown Imminent</title>
-      <link>http://localhost:64182/posts/proposal/</link>
+      <link>http://localhost:1313/posts/proposal/</link>
       <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/proposal/</guid>
+      <guid>http://localhost:1313/posts/proposal/</guid>
       <description>My research proposal on using metallic phase change materials (MPCMs) to enable faster EV charging by managing heat in power electronics.</description>
     </item>
   </channel>

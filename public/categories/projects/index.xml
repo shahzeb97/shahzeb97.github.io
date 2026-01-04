@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Shahzeb97</title>
-    <link>http://localhost:64182/categories/projects/</link>
+    <link>http://localhost:1313/categories/projects/</link>
     <description>Recent content in Projects on Shahzeb97</description>
     <generator>Hugo -- 0.153.5</generator>
     <language>en-us</language>
     <copyright>Shahzeb97</copyright>
     <lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64182/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gear Toy</title>
-      <link>http://localhost:64182/posts/gear/</link>
+      <link>http://localhost:1313/posts/gear/</link>
       <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/gear/</guid>
+      <guid>http://localhost:1313/posts/gear/</guid>
       <description>A procedurally generated gear fidget toy made with the Godot game engine - hand-coded mesh generation with GDScript!</description>
     </item>
     <item>
       <title>The Last Dodo</title>
-      <link>http://localhost:64182/posts/dodo/</link>
+      <link>http://localhost:1313/posts/dodo/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/dodo/</guid>
+      <guid>http://localhost:1313/posts/dodo/</guid>
       <description>My first ever game jam entry - a game about the last dodo bird trying to escape extinction, made with the Godot Engine in 24 hours!</description>
     </item>
     <item>
       <title>no name® Todo List App</title>
-      <link>http://localhost:64182/posts/noname/</link>
+      <link>http://localhost:1313/posts/noname/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/noname/</guid>
+      <guid>http://localhost:1313/posts/noname/</guid>
       <description>A minimalist Flutter todo list app inspired by the no name® brand&amp;#39;s clean aesthetic - my CS50x final project!</description>
     </item>
     <item>
       <title>Wikipedia Network Graph</title>
-      <link>http://localhost:64182/posts/wikibot/</link>
+      <link>http://localhost:1313/posts/wikibot/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/wikibot/</guid>
+      <guid>http://localhost:1313/posts/wikibot/</guid>
       <description>A Wikipedia network visualization tool that creates beautiful graphs showing relationships between articles - gluing Python libraries together for fun!</description>
     </item>
     <item>
       <title>Fluid Simulation from Scratch</title>
-      <link>http://localhost:64182/posts/streamlines/</link>
+      <link>http://localhost:1313/posts/streamlines/</link>
       <pubDate>Sun, 02 Jan 2022 03:25:26 -0500</pubDate>
-      <guid>http://localhost:64182/posts/streamlines/</guid>
+      <guid>http://localhost:1313/posts/streamlines/</guid>
       <description>A 2-D fluid simulation solver I made for a class in grad school 👨‍🎓. Built from scratch in Python using the SIMPLE algorithm, with flexible mask-based obstacles!</description>
     </item>
   </channel>

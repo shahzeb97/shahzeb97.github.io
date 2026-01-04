@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Godot on Shahzeb97</title>
-    <link>http://localhost:64182/tags/godot/</link>
+    <link>http://localhost:1313/tags/godot/</link>
     <description>Recent content in Godot on Shahzeb97</description>
     <generator>Hugo -- 0.153.5</generator>
     <language>en-us</language>
     <copyright>Shahzeb97</copyright>
     <lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64182/tags/godot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/godot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gear Toy</title>
-      <link>http://localhost:64182/posts/gear/</link>
+      <link>http://localhost:1313/posts/gear/</link>
       <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/gear/</guid>
+      <guid>http://localhost:1313/posts/gear/</guid>
       <description>A procedurally generated gear fidget toy made with the Godot game engine - hand-coded mesh generation with GDScript!</description>
     </item>
     <item>
       <title>The Last Dodo</title>
-      <link>http://localhost:64182/posts/dodo/</link>
+      <link>http://localhost:1313/posts/dodo/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/dodo/</guid>
+      <guid>http://localhost:1313/posts/dodo/</guid>
       <description>My first ever game jam entry - a game about the last dodo bird trying to escape extinction, made with the Godot Engine in 24 hours!</description>
     </item>
   </channel>

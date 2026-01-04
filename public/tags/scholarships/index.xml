@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Scholarships on Shahzeb97</title>
-    <link>http://localhost:64182/tags/scholarships/</link>
+    <link>http://localhost:1313/tags/scholarships/</link>
     <description>Recent content in Scholarships on Shahzeb97</description>
     <generator>Hugo -- 0.153.5</generator>
     <language>en-us</language>
     <copyright>Shahzeb97</copyright>
     <lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64182/tags/scholarships/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/scholarships/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awarded the $15K Queen Elizabeth II Graduate Scholarship</title>
-      <link>http://localhost:64182/posts/qe2/</link>
+      <link>http://localhost:1313/posts/qe2/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/qe2/</guid>
+      <guid>http://localhost:1313/posts/qe2/</guid>
       <description>Awarded the Queen Elizabeth II Graduate Scholarship in Science and Technology (QEII-GSST) for 2022-2023 for research in thermal management strategies for electric vehicles.</description>
     </item>
     <item>
       <title>Awarded the $15K Climate Positive Energy Graduate Scholarship</title>
-      <link>http://localhost:64182/posts/cpe/</link>
+      <link>http://localhost:1313/posts/cpe/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/cpe/</guid>
+      <guid>http://localhost:1313/posts/cpe/</guid>
       <description>Selected as part of the first cohort of UofT&amp;#39;s Climate Positive Energy Initiative to research thermal management of EV power electronics using metallic phase change materials.</description>
     </item>
   </channel>

@@ -2,131 +2,131 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64182/tags/about-me/</loc>
+    <loc>http://localhost:1313/tags/about-me/</loc>
     <lastmod>2026-01-01T02:08:38-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-01-01T02:08:38-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
     <lastmod>2026-01-01T02:08:38-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/categories/professional/</loc>
+    <loc>http://localhost:1313/categories/professional/</loc>
     <lastmod>2026-01-01T02:08:38-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-01-01T02:08:38-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-01T02:08:38-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/categories/categories/</loc>
+    <loc>http://localhost:1313/categories/categories/</loc>
     <lastmod>2025-09-18T20:30:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/magazine/</loc>
+    <loc>http://localhost:1313/posts/magazine/</loc>
     <lastmod>2025-09-18T20:30:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-09-18T20:30:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/tags/</loc>
+    <loc>http://localhost:1313/tags/tags/</loc>
     <lastmod>2025-09-18T20:30:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/design/</loc>
+    <loc>http://localhost:1313/tags/design/</loc>
     <lastmod>2025-07-31T19:45:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/cypress/</loc>
+    <loc>http://localhost:1313/posts/cypress/</loc>
     <lastmod>2025-07-31T19:45:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/mech/</loc>
+    <loc>http://localhost:1313/tags/mech/</loc>
     <lastmod>2025-07-31T19:45:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/motors/</loc>
+    <loc>http://localhost:1313/tags/motors/</loc>
     <lastmod>2025-07-31T19:45:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/gdt/</loc>
+    <loc>http://localhost:1313/posts/gdt/</loc>
     <lastmod>2025-03-17T17:07:24-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/training/</loc>
+    <loc>http://localhost:1313/tags/training/</loc>
     <lastmod>2025-03-17T17:07:24-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/experiments/</loc>
+    <loc>http://localhost:1313/tags/experiments/</loc>
     <lastmod>2024-09-01T04:32:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/publications/</loc>
+    <loc>http://localhost:1313/tags/publications/</loc>
     <lastmod>2024-09-01T04:32:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/journalpaper/</loc>
+    <loc>http://localhost:1313/posts/journalpaper/</loc>
     <lastmod>2024-09-01T04:32:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/research/</loc>
+    <loc>http://localhost:1313/tags/research/</loc>
     <lastmod>2024-09-01T04:32:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/life/</loc>
+    <loc>http://localhost:1313/tags/life/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/updates/</loc>
+    <loc>http://localhost:1313/posts/updates/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/presentations/</loc>
+    <loc>http://localhost:1313/tags/presentations/</loc>
     <lastmod>2023-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/conferences/</loc>
+    <loc>http://localhost:1313/posts/conferences/</loc>
     <lastmod>2023-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/gear/</loc>
+    <loc>http://localhost:1313/posts/gear/</loc>
     <lastmod>2022-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/godot/</loc>
+    <loc>http://localhost:1313/tags/godot/</loc>
     <lastmod>2022-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/programming/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2022-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/categories/projects/</loc>
+    <loc>http://localhost:1313/categories/projects/</loc>
     <lastmod>2022-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/projects/</loc>
+    <loc>http://localhost:1313/tags/projects/</loc>
     <lastmod>2022-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/dodo/</loc>
+    <loc>http://localhost:1313/posts/dodo/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/noname/</loc>
+    <loc>http://localhost:1313/posts/noname/</loc>
     <lastmod>2022-09-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/cpe/</loc>
+    <loc>http://localhost:1313/tags/cpe/</loc>
     <lastmod>2022-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/cpe-rd/</loc>
+    <loc>http://localhost:1313/posts/cpe-rd/</loc>
     <lastmod>2022-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/qe2/</loc>
+    <loc>http://localhost:1313/posts/qe2/</loc>
     <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/scholarships/</loc>
+    <loc>http://localhost:1313/tags/scholarships/</loc>
     <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/cpe/</loc>
+    <loc>http://localhost:1313/posts/cpe/</loc>
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/wikibot/</loc>
+    <loc>http://localhost:1313/posts/wikibot/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/streamlines/</loc>
+    <loc>http://localhost:1313/posts/streamlines/</loc>
     <lastmod>2022-01-02T03:25:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/tags/simulation/</loc>
+    <loc>http://localhost:1313/tags/simulation/</loc>
     <lastmod>2022-01-02T03:25:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/posts/proposal/</loc>
+    <loc>http://localhost:1313/posts/proposal/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64182/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:64182/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

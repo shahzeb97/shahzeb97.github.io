@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CPE on Shahzeb97</title>
-    <link>http://localhost:64182/tags/cpe/</link>
+    <link>http://localhost:1313/tags/cpe/</link>
     <description>Recent content in CPE on Shahzeb97</description>
     <generator>Hugo -- 0.153.5</generator>
     <language>en-us</language>
     <copyright>Shahzeb97</copyright>
     <lastBuildDate>Wed, 17 Aug 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64182/tags/cpe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cpe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presenting at the 1st CPE Research Day</title>
-      <link>http://localhost:64182/posts/cpe-rd/</link>
+      <link>http://localhost:1313/posts/cpe-rd/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/cpe-rd/</guid>
+      <guid>http://localhost:1313/posts/cpe-rd/</guid>
       <description>Presenting my 3-minute research outline at the inaugural CPE Research Day 2022 - A Project Showcase and Student Awards Event at the University of Toronto.</description>
     </item>
     <item>
       <title>Awarded the $15K Climate Positive Energy Graduate Scholarship</title>
-      <link>http://localhost:64182/posts/cpe/</link>
+      <link>http://localhost:1313/posts/cpe/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64182/posts/cpe/</guid>
+      <guid>http://localhost:1313/posts/cpe/</guid>
       <description>Selected as part of the first cohort of UofT&amp;#39;s Climate Positive Energy Initiative to research thermal management of EV power electronics using metallic phase change materials.</description>
     </item>
   </channel>
