@@ -2,7 +2,10 @@
 <article class="first-entry home-info">
     {{- with site.Params.AvatarImage }}
     <div class="home-info-avatar mobile-avatar">
-        <img src="{{ . }}" alt="Profile photo" class="avatar-img" />
+        <img src="{{ . }}" alt="Profile photo" class="avatar-img avatar-light" />
+        {{- with site.Params.AvatarImageDark }}
+        <img src="{{ . }}" alt="Profile photo" class="avatar-img avatar-dark" />
+        {{- end }}
     </div>
     {{- end }}
     <div class="home-info-wrapper">
@@ -19,7 +22,10 @@
         </div>
         {{- with site.Params.AvatarImage }}
         <div class="home-info-avatar desktop-avatar">
-            <img src="{{ . }}" alt="Profile photo" class="avatar-img" />
+            <img src="{{ . }}" alt="Profile photo" class="avatar-img avatar-light" />
+            {{- with site.Params.AvatarImageDark }}
+            <img src="{{ . }}" alt="Profile photo" class="avatar-img avatar-dark" />
+            {{- end }}
         </div>
         {{- end }}
     </div>

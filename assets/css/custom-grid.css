@@ -225,3 +225,46 @@
   margin: calc(var(--gap) * 0.5) 0 var(--gap) 0;
   min-height: 200px;
 }
+
+/* ========================================
+   Theme-aware Avatar Switching
+   Uses PaperMod's data-theme attribute system
+   ======================================== */
+
+/* Default: show light, hide dark */
+.avatar-light {
+  display: block;
+}
+
+.avatar-dark {
+  display: none;
+}
+
+/* When explicitly set to dark theme */
+[data-theme="dark"] .avatar-light {
+  display: none;
+}
+
+[data-theme="dark"] .avatar-dark {
+  display: block;
+}
+
+/* When explicitly set to light theme */
+[data-theme="light"] .avatar-light {
+  display: block;
+}
+
+[data-theme="light"] .avatar-dark {
+  display: none;
+}
+
+/* Auto theme (system preference) - when no data-theme is set or auto */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .avatar-light {
+    display: none;
+  }
+  
+  :root:not([data-theme="light"]) .avatar-dark {
+    display: block;
+  }
+}

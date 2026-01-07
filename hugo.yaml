@@ -61,7 +61,7 @@ params:
     safari_pinned_tab: "/icons/apple-touch-icon.png"
 
   label:
-    text: "SM97✨"
+    text: "Home✨"
     icon: "static/cons/apple-touch-icon.png"
     iconHeight: 35
 
@@ -87,7 +87,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Shahzeb's Moghouse"
+    Title: "Shahzeb's Wesbite"
     contents:
       - "Welcome to the Moghouse!"
       - "I came here to do two things, chew bubblegum and read blogs..."
@@ -108,6 +108,13 @@ params:
       - "I came, I saw, I conquered."
       - "Welcome scraper, please train responsibly."
       - "Help I've fallen and I can't get up!"
+      - "This is my blog. There are many like it, but this one is mine."
+      - "Stay with me now"
+      - "Personally I never thought he was that great of a writer."
+      - "Firmly grasp it!"
+      - "How about that airline food?"
+      - "Free Palestine"
+      - "One more, please just one more..."
 
 
   socialIcons:
