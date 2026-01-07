@@ -81,7 +81,9 @@ params:
         url: tags
 
   # Avatar image for home page (appears next to home info)
-  AvatarImage: "/icons/avatar.png"  # Replace with your image path
+  AvatarImage: "/photos/avatar.png"  # Replace with your image path
+  AvatarImageDark: "/photos/jobs_avatar_cropped.jpg"  # Replace with your image path
+  
 
   # home-info mode
   homeInfoParams:
@@ -133,7 +135,7 @@ params:
 
   editPost:
     disabled: false
-    URL: "https://github.com/shahzeb97/shahzeb97.github.io/content"
+    URL: "https://github.com/shahzeb97/shahzeb97.github.io/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
