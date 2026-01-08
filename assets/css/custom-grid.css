@@ -1,6 +1,58 @@
 /* Custom homepage grid and card styles - local override */
 
 /* ========================================
+   Theme Toggle Styles
+   ======================================== */
+
+.theme-toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.theme-option {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, font-weight 0.2s ease;
+}
+
+.theme-option:hover {
+    opacity: 0.85;
+}
+
+.theme-option.active {
+    opacity: 1;
+}
+
+.theme-option.active .theme-text {
+    font-weight: 700;
+}
+
+.theme-text {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.theme-option svg {
+    display: inline-block !important;
+}
+
+/* Override PaperMod's icon hiding - keep all icons always visible */
+[data-theme="dark"] #moon,
+[data-theme="light"] #sun,
+#moon,
+#sun,
+#system {
+    display: inline-block !important;
+}
+
+/* ========================================
    Home Info Avatar Styles
    ======================================== */
 

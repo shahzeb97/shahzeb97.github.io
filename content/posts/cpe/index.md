@@ -2,7 +2,7 @@
 date: '2022-05-06'
 draft: false
 title: Awarded the $15K Climate Positive Energy Graduate Scholarship
-ArticleQuote: "The future is bright, but it's not ours to see. -Doris Day"
+ArticleQuote: "The future is bright, but it's not ours to see. - Doris Day"
 # weight: 1
 # aliases: ["/first"]
 tags: [scholarships, research, CPE]

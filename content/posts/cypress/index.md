@@ -4,7 +4,7 @@ date: '2025-07-31T19:45:57-05:00'
 title: 'Introducing Cypress'
 description: "A novel 1.5 HP, 3600 RPM NEMA 56 EC Motor, and my first product release with Conifer!"
 summary: "The motor of your dreams"
-ArticleQuote: "Real artists ship. -Steve Jobs"
+ArticleQuote: "Real artists ship. - Steve Jobs"
 tags: ["motors", "mech", "design"]
 categories: ["Professional"]
 author: "Shahzeb Mirza"

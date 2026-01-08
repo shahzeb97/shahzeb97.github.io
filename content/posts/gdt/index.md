@@ -4,7 +4,7 @@ date: '2025-03-17T17:07:24-05:00'
 title: 'ASME Y14.5 Certified!'
 description: "Me getting a few certifications in engineering drawing and GD&T through ASME"
 summary: "The arduous journey to kind of knowing what you're doing"
-ArticleQuote: "Professionals have standards -The Sniper (Team Fortress 2)"
+ArticleQuote: "Professionals have standards - The Sniper (Team Fortress 2)"
 tags: ["training", "mech", "design"]
 categories: ["Professional"]
 author: "Shahzeb Mirza"

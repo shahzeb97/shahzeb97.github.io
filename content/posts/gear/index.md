@@ -2,7 +2,7 @@
 date: '2022-11-15'
 draft: false
 title: Gear Toy
-ArticleQuote: "You spin me right 'round, baby, right 'round. -Dead or Alive"
+ArticleQuote: "You spin me right 'round, baby, right 'round. - Dead or Alive"
 # weight: 1
 # aliases: ["/first"]
 tags: [programming, projects, godot]

@@ -2,7 +2,7 @@
 date: '2022-10-02'
 draft: false
 title: The Last Dodo
-ArticleQuote: "If you want to go fast, go alone, if you want to go far, go together. -Unknown (African Proverb)"
+ArticleQuote: "If you want to go fast, go alone, if you want to go far, go together. - Unknown (African Proverb)"
 # weight: 1
 # aliases: ["/first"]
 tags: [programming, projects, godot]

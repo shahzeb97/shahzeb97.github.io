@@ -2,7 +2,7 @@
 date: '2022-07-18'
 draft: false
 title: Awarded the $15K Queen Elizabeth II Graduate Scholarship
-ArticleQuote: "Give Me Your Tired, Your Poor. -Emma Lazarus"
+ArticleQuote: "Give Me Your Tired, Your Poor. - Emma Lazarus"
 # weight: 1
 # aliases: ["/first"]
 tags: [scholarships]

@@ -2,7 +2,7 @@
 date: '2022-08-17'
 draft: false
 title: Presenting at the 1st CPE Research Day
-ArticleQuote: "Hey freak show! You're going nowhere. I got you for three minutes. -Bonesaw"
+ArticleQuote: "Hey freak show! You're going nowhere. I got you for three minutes. - Bonesaw"
 # weight: 1
 # aliases: ["/first"]
 tags: [research, presentations, CPE]

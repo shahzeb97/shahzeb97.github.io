@@ -2,7 +2,7 @@
 date: '2022-09-04'
 draft: false
 title: no name® Todo List App
-ArticleQuote: "Good artists copy, great artists steal. -Pablo Picasso"
+ArticleQuote: "Good artists copy, great artists steal. - Pablo Picasso"
 # weight: 1
 # aliases: ["/first"]
 tags: [programming, projects]

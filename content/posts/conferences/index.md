@@ -3,7 +3,7 @@ date: '2023-01-15'
 draft: false
 title: Taking my Research to Conferences
 summary: World Tour from Orlando to Cape Town
-ArticleQuote: "Not all those who wander are lost. -J.R.R. Tolkien"
+ArticleQuote: "Not all those who wander are lost. - J.R.R. Tolkien"
 # weight: 1
 # aliases: ["/first"]
 tags: [research, presentations]

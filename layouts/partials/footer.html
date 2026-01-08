@@ -87,9 +87,12 @@
 {{- if (not site.Params.disableThemeToggle) }}
 <script>
     (function () {
-        const themeBtn = document.getElementById("theme-toggle");
         const colorQuery = window.matchMedia('(prefers-color-scheme: dark)');
         let systemListener = null;
+
+        const darkOption = document.getElementById('dark-option');
+        const lightOption = document.getElementById('light-option');
+        const autoOption = document.getElementById('auto-option');
 
         function applySystemTheme() {
             if (localStorage.getItem('pref-theme')) return;
@@ -120,69 +123,73 @@
             startSystemListener();
         }
 
-        function updateToggleIcon() {
-            const moon = document.getElementById('moon');
-            const sun = document.getElementById('sun');
-            const system = document.getElementById('system');
+        function updateActiveState() {
             const saved = localStorage.getItem('pref-theme');
-            const effective = document.documentElement.dataset.theme || (colorQuery.matches ? 'dark' : 'light');
-            // Hide all first (use inline style to ensure predictable overrides)
-            if (moon) moon.style.display = 'none';
-            if (sun) sun.style.display = 'none';
-            if (system) system.style.display = 'none';
+            
+            // Remove active class from all options
+            if (darkOption) darkOption.classList.remove('active');
+            if (lightOption) lightOption.classList.remove('active');
+            if (autoOption) autoOption.classList.remove('active');
 
+            // Add active class to current mode
             if (!saved) {
-                // no saved pref -> system mode: show system icon
-                if (system) system.style.display = 'inline';
-                return;
-            }
-
-            // Saved pref exists: show icon matching effective theme
-            if (effective === 'dark') {
-                if (moon) moon.style.display = 'inline';
-            } else {
-                if (sun) sun.style.display = 'inline';
+                // Auto mode
+                if (autoOption) autoOption.classList.add('active');
+            } else if (saved === 'dark') {
+                if (darkOption) darkOption.classList.add('active');
+            } else if (saved === 'light') {
+                if (lightOption) lightOption.classList.add('active');
             }
         }
 
-        // initial icon state
-        updateToggleIcon();
+        function setTheme(theme) {
+            const html = document.documentElement;
+            
+            if (theme === 'auto') {
+                localStorage.removeItem('pref-theme');
+                applySystemTheme();
+                startSystemListener();
+            } else {
+                html.dataset.theme = theme;
+                localStorage.setItem('pref-theme', theme);
+                stopSystemListener();
+            }
+            updateActiveState();
+        }
 
-        if (themeBtn) {
-            themeBtn.addEventListener('click', () => {
-                const html = document.documentElement;
-                const saved = localStorage.getItem('pref-theme');
+        // Initial state
+        updateActiveState();
 
-                if (saved === 'dark') {
-                    // dark -> light
-                    html.dataset.theme = 'light';
-                    localStorage.setItem('pref-theme', 'light');
-                    stopSystemListener();
-                } else if (saved === 'light') {
-                    // light -> system
-                    localStorage.removeItem('pref-theme');
-                    applySystemTheme();
-                    startSystemListener();
-                } else {
-                    // system (no saved) -> set dark explicitly
-                    html.dataset.theme = 'dark';
-                    localStorage.setItem('pref-theme', 'dark');
-                    stopSystemListener();
-                }
-                updateToggleIcon();
+        // Add click handlers for each option
+        if (darkOption) {
+            darkOption.addEventListener('click', (e) => {
+                e.stopPropagation();
+                setTheme('dark');
+            });
+        }
+        if (lightOption) {
+            lightOption.addEventListener('click', (e) => {
+                e.stopPropagation();
+                setTheme('light');
+            });
+        }
+        if (autoOption) {
+            autoOption.addEventListener('click', (e) => {
+                e.stopPropagation();
+                setTheme('auto');
             });
         }
 
-        // update icon when system preference changes
+        // Update when system preference changes
         if (colorQuery.addEventListener) {
             colorQuery.addEventListener('change', () => {
                 applySystemTheme();
-                updateToggleIcon();
+                updateActiveState();
             });
         } else {
             colorQuery.addListener(() => {
                 applySystemTheme();
-                updateToggleIcon();
+                updateActiveState();
             });
         }
     })();
