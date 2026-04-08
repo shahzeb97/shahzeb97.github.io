@@ -4,11 +4,18 @@
     <title>Posts on Shahzeb97</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Shahzeb97</description>
-    <generator>Hugo -- 0.153.5</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
     <copyright>Shahzeb97</copyright>
-    <lastBuildDate>Thu, 18 Sep 2025 20:30:40 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 17:10:45 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Air Canada Chessbot Sucks</title>
+      <link>http://localhost:1313/posts/ac-chessbot/</link>
+      <pubDate>Mon, 26 Jan 2026 17:10:45 -0800</pubDate>
+      <guid>http://localhost:1313/posts/ac-chessbot/</guid>
+      <description>Somehow even I could beat it</description>
+    </item>
     <item>
       <title>My Article in Pumps &amp; Systems Magazine</title>
       <link>http://localhost:1313/posts/magazine/</link>
