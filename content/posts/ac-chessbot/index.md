@@ -1,5 +1,5 @@
 ---
-draft:
+draft: false
 date: '2026-01-26T17:10:45-08:00'
 title: 'Evaluating of the Air Canada Chessbot'
 description: "Somehow even I could beat it"
